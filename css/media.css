@@ -1,0 +1,51 @@
+@media(max-width:575px){
+    .logo_mobile{
+        display: none;
+    }
+    .main_logo{
+        display: inline-block;
+    }
+    .main_logo img{
+        width: 150px;
+    }
+    .btn-appoint{
+        display: none;
+    }
+    .banner_img{
+        display: none;
+    }
+    .banner_content{
+        text-align: center;
+        align-items: flex-end !important;
+        min-height: 50vh;
+    }
+    .agency_img{
+        position: inherit;
+        width: 60%;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+    .agency{
+        text-align: center;
+    }
+    .agency_item{
+        margin-top: 20px;
+    }
+    .business_plan{
+        margin-bottom: 30px;
+    }
+    .main_footer{
+        padding: 30px;
+    }
+    .main_footer h2{
+        margin-top: 70px;
+    }
+    .client_img .owl-nav .owl-prev{
+        left: -2%;
+        top: 75%;
+    }   
+    .client_img .owl-nav .owl-next{
+        right: -2%;
+        top: 75%;
+    } 
+}
